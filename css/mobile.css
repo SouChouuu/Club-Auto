@@ -1,0 +1,44 @@
+/* Import polices */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.title {
+    font-family: "Monserrat", sans-serif;
+    color: #cc6119;
+}
+
+.fonts {
+    font-family: "Open Sans", sans-serif;
+    color: #232628;
+}
+
+/*changer la couleur du bouton hamburger*/
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgb(108, 152, 225)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/*Changer la couleur de fond de la navbar*/
+.navbar {
+    background-color: #232628;
+}
+
+/*Changer le style des paragraphes*/
+p {
+    color: #cc6119;
+  
+}
+/*Changer le style des titres*/
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+/*Changer la couleur de fond de la première section*/
+.section1 {
+    background-color: #232628;
+}
+
+
