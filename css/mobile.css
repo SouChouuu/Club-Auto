@@ -35,6 +35,7 @@ h2 {
     font-size: 2.5rem;
 }
 
+/*Page ACCEUIL*/
 /*Changer la couleur de fond des sections*/
 .section {
     background-color: #232628;
@@ -78,6 +79,16 @@ li {
     background-color: black;
     text-align: center;    
 }
+
+/*Page CONTACT*/
+/*Changer l'image de fond */
+
+.contact {
+    background-image: url(/images/vehicule3.jpg);
+    background-size: cover;
+}
+
+
 
 
 
