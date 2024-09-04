@@ -11,8 +11,7 @@
     font-family: "Open Sans", sans-serif;
     color: #232628;
 }
-
-/*changer la couleur du bouton hamburger*/
+/*changer le style du bouton hamburger*/
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgb(108, 152, 225)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
@@ -22,12 +21,12 @@
     background-color: #232628;
 }
 
-/*Changer le style des paragraphes*/
+/*Changer la couleur de texte des paragraphes*/
 p {
     color: #cc6119;
-  
 }
-/*Changer le style des titres*/
+
+/*Changer la taille de caractères des titres*/
 h1 {
     font-size: 4rem;
 }
@@ -36,9 +35,53 @@ h2 {
     font-size: 2.5rem;
 }
 
-/*Changer la couleur de fond de la première section*/
-.section1 {
+/*Changer la couleur de fond des sections*/
+.section {
     background-color: #232628;
 }
+
+.section3 {
+    background-image: url(/images/vehicule1.jpg);
+    background-size: cover;
+}
+
+.section5 {
+    background-image: url(/images/entretien.jpg);
+    background-size: cover;
+}
+
+/* Changer le style des puces de liste*/
+li {
+    list-style: none;
+}
+
+.puces {
+    color:#cc6119;
+}
+
+/*changer le style de l'encadré location*/
+.loc {
+    font-size: 4rem;
+    background-color: #FAB637;   
+}
+
+/*changer le style de l'encadré achat*/
+
+.achat {
+    font-size: 4rem;
+    background-color: #ff4848; 
+}
+
+/*changer le style de l'encadré exemple*/
+.exemple {
+    font-size: 5rem;
+    background-color: black;
+    text-align: center;    
+}
+
+
+
+
+
 
 
