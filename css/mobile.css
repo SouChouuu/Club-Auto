@@ -88,6 +88,46 @@ li {
     background-size: cover;
 }
 
+/*Page vehiculeDetails
+/*List group bouton */
+
+.btn-custom {
+    background-color: black;
+    color: white;
+    border: solid;
+    border-color: black;
+    border-radius: 0;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.btn-custom:hover {
+    background-color: #333;
+}
+
+.btn-custom:active, .btn-custom.active {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2), 0px 6px 20px rgba(0, 0, 0, 0.19);
+    transform: translateY(-4px); /* Simule un léger enfoncement */
+}
+
+.encadrement {
+    background-color: black;
+    color: white;
+}
+
+.encadrement:active, .encadrement.btn-custom.active {
+    background-color: white;
+    color: black;
+}
+
+/*barre orange */
+.orange-bar {
+    border-left: 0.3em solid #ff4848; /* Crée la barre verticale */
+    padding-left: 2em; /* Espace entre la barre et le texte */
+}
+
 
 
 
